@@ -20,6 +20,7 @@
 
 html {
   scroll-behavior: smooth;
+  scroll-margin-top: 100px;
 }
 
 body {
@@ -381,6 +382,10 @@ footer {
 
   .hero {
     padding-top: 60px;
+  }
+
+  section {
+   scroll-margin-top: 170px;
   }
 
   .hero-card,
