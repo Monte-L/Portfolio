@@ -20,7 +20,7 @@
 
 html {
   scroll-behavior: smooth;
-  scroll-margin-top: 100px;
+  scroll-margin-top: 120px;
 }
 
 body {
@@ -45,8 +45,10 @@ a:hover {
 }
 
 header {
-  position: sticky;
+  position: fixed;
   top: 0;
+  left: 0;
+  width: 100%;
   z-index: 20;
   background: rgba(15, 23, 42, 0.92);
   backdrop-filter: blur(10px);
@@ -80,7 +82,7 @@ header {
 }
 
 .hero {
-  padding: 88px 0 56px;
+  padding: 180px 0 56px;
 }
 
 .hero-grid {
@@ -225,7 +227,7 @@ h1 {
 
 section {
   padding: 28px 0 12px;
-  scroll-margin-top: 130px;
+  scroll-margin-top: 120px;
 }
 
 .section-head {
@@ -381,11 +383,15 @@ footer {
   }
 
   .hero {
-    padding-top: 60px;
+    padding-top: 230px;
   }
 
   section {
-   scroll-margin-top: 170px;
+   scroll-margin-top: 210px;
+  }
+
+  html {
+    scroll-padding-top: 210px;
   }
 
   .hero-card,
